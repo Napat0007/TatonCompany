@@ -17,17 +17,20 @@
     </div class="navbar">
     <div class="sidebar">
         <i class="fa-solid fa-bars fa-2xl"></i>
-        <button class="SortButton">
-            <i class="fa-solid fa-pencil fa-lg"></i>
-            <p>POST</p>
-        </button>
+        <form method="post" action="checkvalue.php">
+            <button class="SortButton" type="submit" name="post">
+                <i class="fa-solid fa-pencil fa-lg"></i>
+                <p>POST</p>
+            </button>
 
-        <button class="profile-logo">
-            <i class="fa-solid fa-gear fa-2xl" style="margin-top: 800%;"></i>
-        </button>
-        <button class="profile-logo">
-            <img src="Test-Profile.jpg" alt="Profile Loading">
-        </button>
+            <button class="profile-logo"style="margin-top: 700%;" type="submit" name="setting">
+                <i class="fa-solid fa-gear fa-2xl" ></i>
+            </button>
+            <button class="profile-logo" style="margin-top: 100%;" type="submit" name="profile">
+                <img src="Test-Profile.jpg" alt="Profile Loading">
+            </button>
+        </form>
+
     </div>
     <!-- Post/ข้อมูล -->
     <div class="main-container">

@@ -16,7 +16,7 @@
     padding-right: 3%;
     position: fixed;
     display: flex;
-    align-items: 1%;
+    align-items: flex-start;
     /* justify-content: center; */
     flex-direction: column;
     gap: 5%;
@@ -87,6 +87,6 @@
 }
 .profile {
     border-radius: 100%;
-    width: 50%;
-    height: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
 }
