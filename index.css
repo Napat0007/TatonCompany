@@ -1,0 +1,92 @@
+.navbar {
+    background-color: rgb(91 151 218);
+    padding: 2% 2%;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar {
+    background-color: rgb(91 151 218);
+    height: 100%;
+    width: 7%;
+    padding: 1%;
+    padding-right: 3%;
+    position: fixed;
+    display: flex;
+    align-items: 1%;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 5%;
+}
+
+.sidebar i {
+    margin-left: 15%;
+}
+
+.SortButton {
+    border: none;
+    width: 150%;
+    border-radius: 10px;
+    padding: 8%;
+    padding-top: 50%;
+    padding-bottom: 10%;
+    padding-right: 20%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    /* justify-content: center;*/
+    align-items: center;
+    font-size: 100%;
+}
+
+.profile-logo {
+    border: none;
+    background: none;
+}
+.profile-logo img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+
+
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    color: rgb(139,116,116);    
+}
+
+.searchbox {
+    background-color: rgb(217,217,217);
+    padding-top: 0.5%;padding-bottom: 0.5%;
+    width: 100%;
+    border: 0px;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    padding-top: 1%;
+}
+
+.col-sm-1 {
+    margin-right: 0%;
+}
+
+.card {
+    background-color: rgb(217, 217, 217);
+    margin-top: 1%;
+    padding: 5%;
+    padding-top: 3%;
+    border: none;
+}
+.profile {
+    border-radius: 100%;
+    width: 50%;
+    height: 100%;
+}
